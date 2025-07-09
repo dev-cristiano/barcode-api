@@ -1,5 +1,5 @@
 {
-    "name": "criis/barcode-api",
+    "name": "dev-criistiano/barcode-api",
     "autoload": {
         "psr-4": {
             "App\\": "src/"

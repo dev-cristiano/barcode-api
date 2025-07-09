@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    container_name: barcode-api
+    ports:
+      - "8000:80"
+    env_file:
+      - .env
+    volumes:
+      - ./:/var/www/html
