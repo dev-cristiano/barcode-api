@@ -1,6 +1,6 @@
 # Barcode API
 
-API REST simples para consulta de produtos por código de barras, construída em PHP com Doctrine DBAL, rodando em container Docker com Apache.
+API REST simples para consulta de produtos por código de barras, construída em PHP com Doctrine DBAL e Monolog, rodando em container Docker com Apache.
 
 ---
 
@@ -13,6 +13,7 @@ API REST simples para consulta de produtos por código de barras, construída em
 - Apache HTTP Server
 - Composer
 - vlucas/phpdotenv (para variáveis de ambiente)
+- Monolog
 
 ---
 
