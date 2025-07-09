@@ -38,5 +38,3 @@ API REST para consulta de produtos por código de barras, construída em PHP com
 
 3. Acesse a API no navegador ou via cliente HTTP:
    http://localhost:8000/api/produtos?barcode=SEU_CODIGO_DE_BARRAS
-=======
->>>>>>> 77a4ba57f5c4c9e04942d122a599f4f2f9545501
