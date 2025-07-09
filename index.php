@@ -9,12 +9,6 @@ use App\Database\Connection;
 $uri = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 $method = $_SERVER['REQUEST_METHOD'];
 
-// Remove barras extras e normaliza a URI
-$uri = rtrim($uri, '/');
-if (empty($uri)) {
-    $uri = '/';
-}
-
 // Verifica se a requisição corresponde á rota esperada
 if ($method === 'GET' && $uri === '/api/produtos') {
     $barcode = $_GET['barcode'] ?? null;

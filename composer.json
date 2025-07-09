@@ -16,6 +16,7 @@
       "ext-json": "*",
       "ext-pdo": "*",
         "doctrine/dbal": "^4.2",
-        "mp091689/dump-die": "^1.0"
+        "mp091689/dump-die": "^1.0",
+        "monolog/monolog": "^3.9"
     }
 }
