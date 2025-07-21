@@ -17,7 +17,7 @@ WORKDIR /var/www/html
 COPY . .
 
 # Instala as dependências PHP dentro do container
-RUN composer install --no-interaction --no-scripts --no-dev
+RUN composer install
 
 # Ativa o mod_rewrite do Apache
 RUN a2enmod rewrite

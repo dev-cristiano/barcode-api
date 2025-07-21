@@ -6,9 +6,3 @@ services:
       - "8000:80"
     env_file:
       - .env
-    volumes:
-      - ./:/var/www/html
-      - vendor_volume:/var/www/html/vendor
-
-volumes:
-  vendor_volume:
